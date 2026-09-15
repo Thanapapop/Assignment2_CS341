@@ -1,0 +1,49 @@
+{
+  "question": "Which taxi type was the most used in the first half of 2024?",
+  "period_start": "2024-01-01 00:00:00",
+  "period_end_exclusive": "2024-07-01 00:00:00",
+  "definition": "Count of trip-record rows whose service-specific pickup timestamp is non-null and inside the requested period.",
+  "source_page": "https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page",
+  "source_files": 24,
+  "raw_rows": 149655796,
+  "valid_trip_records_total": 149655751,
+  "winner": {
+    "service_key": "fhvhv",
+    "service_type": "High Volume FHV (HVFHV)",
+    "valid_trip_records": 120864668,
+    "share_pct": 80.7618
+  },
+  "strict_taxicab_winner": {
+    "service_type": "Yellow Taxi",
+    "valid_trip_records": 20332054,
+    "share_pct": 98.3562
+  },
+  "quality": {
+    "status": "PASS",
+    "checks": {
+      "expected_file_count": {
+        "passed": true,
+        "observed": 24,
+        "expected": 24
+      },
+      "metadata_matches_raw_rows": {
+        "passed": true
+      },
+      "pickup_columns_present": {
+        "passed": true
+      },
+      "non_negative_counts": {
+        "passed": true
+      },
+      "valid_not_above_raw": {
+        "passed": true
+      },
+      "no_null_pickup_in_curated": {
+        "passed": true,
+        "observed": 0
+      }
+    },
+    "failed_checks": []
+  },
+  "generated_at_utc": "2026-09-14T16:53:29.256204+00:00"
+}

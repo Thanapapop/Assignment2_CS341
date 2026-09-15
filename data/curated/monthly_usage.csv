@@ -1,0 +1,25 @@
+service_key,service_type,year,month,source_file,pickup_column,raw_rows,pickup_nulls,out_of_window,excluded_records,valid_trip_records,min_pickup_datetime,max_pickup_datetime
+fhv,For-Hire Vehicle (FHV),2024,1,fhv_tripdata_2024-01.parquet,pickup_datetime,1290116,0,0,0,1290116,2024-01-01 00:00:01,2024-01-31 23:59:59
+fhv,For-Hire Vehicle (FHV),2024,2,fhv_tripdata_2024-02.parquet,pickup_datetime,1176093,0,0,0,1176093,2024-02-01 00:00:00,2024-02-29 23:59:59
+fhv,For-Hire Vehicle (FHV),2024,3,fhv_tripdata_2024-03.parquet,pickup_datetime,1469352,0,0,0,1469352,2024-03-01 00:00:00,2024-03-31 23:59:57
+fhv,For-Hire Vehicle (FHV),2024,4,fhv_tripdata_2024-04.parquet,pickup_datetime,1444626,0,0,0,1444626,2024-04-01 00:00:00,2024-04-30 23:59:59
+fhv,For-Hire Vehicle (FHV),2024,5,fhv_tripdata_2024-05.parquet,pickup_datetime,1352502,0,0,0,1352502,2024-05-01 00:00:00,2024-05-31 23:59:47
+fhv,For-Hire Vehicle (FHV),2024,6,fhv_tripdata_2024-06.parquet,pickup_datetime,1386539,0,0,0,1386539,2024-06-01 00:00:00,2024-06-30 23:59:57
+fhvhv,High Volume FHV (HVFHV),2024,1,fhvhv_tripdata_2024-01.parquet,pickup_datetime,19663930,0,0,0,19663930,2024-01-01 00:00:00,2024-01-31 23:59:59
+fhvhv,High Volume FHV (HVFHV),2024,2,fhvhv_tripdata_2024-02.parquet,pickup_datetime,19359148,0,0,0,19359148,2024-02-01 00:00:00,2024-02-29 23:59:59
+fhvhv,High Volume FHV (HVFHV),2024,3,fhvhv_tripdata_2024-03.parquet,pickup_datetime,21280788,0,0,0,21280788,2024-03-01 00:00:00,2024-03-31 23:59:59
+fhvhv,High Volume FHV (HVFHV),2024,4,fhvhv_tripdata_2024-04.parquet,pickup_datetime,19733038,0,0,0,19733038,2024-04-01 00:00:00,2024-04-30 23:59:59
+fhvhv,High Volume FHV (HVFHV),2024,5,fhvhv_tripdata_2024-05.parquet,pickup_datetime,20704538,0,0,0,20704538,2024-05-01 00:00:00,2024-05-31 23:59:59
+fhvhv,High Volume FHV (HVFHV),2024,6,fhvhv_tripdata_2024-06.parquet,pickup_datetime,20123226,0,0,0,20123226,2024-06-01 00:00:00,2024-06-30 23:59:59
+green,Green Taxi,2024,1,green_tripdata_2024-01.parquet,lpep_pickup_datetime,56551,0,2,2,56549,2023-12-31 14:38:47,2024-01-31 23:57:29
+green,Green Taxi,2024,2,green_tripdata_2024-02.parquet,lpep_pickup_datetime,53577,0,0,0,53577,2024-01-25 19:10:32,2024-02-29 23:56:40
+green,Green Taxi,2024,3,green_tripdata_2024-03.parquet,lpep_pickup_datetime,57457,0,2,2,57455,2008-12-31 23:02:24,2024-04-01 00:01:45
+green,Green Taxi,2024,4,green_tripdata_2024-04.parquet,lpep_pickup_datetime,56471,0,0,0,56471,2024-03-31 22:34:23,2024-04-30 23:59:33
+green,Green Taxi,2024,5,green_tripdata_2024-05.parquet,lpep_pickup_datetime,61003,0,2,2,61001,2009-01-01 00:27:54,2024-06-01 00:00:56
+green,Green Taxi,2024,6,green_tripdata_2024-06.parquet,lpep_pickup_datetime,54748,0,0,0,54748,2024-05-24 17:04:38,2024-06-30 23:57:10
+yellow,Yellow Taxi,2024,1,yellow_tripdata_2024-01.parquet,tpep_pickup_datetime,2964624,0,15,15,2964609,2002-12-31 22:59:39,2024-02-01 00:01:15
+yellow,Yellow Taxi,2024,2,yellow_tripdata_2024-02.parquet,tpep_pickup_datetime,3007526,0,2,2,3007524,2008-12-31 22:52:49,2024-03-01 00:01:37
+yellow,Yellow Taxi,2024,3,yellow_tripdata_2024-03.parquet,tpep_pickup_datetime,3582628,0,2,2,3582626,2002-12-31 22:17:10,2024-04-01 00:34:55
+yellow,Yellow Taxi,2024,4,yellow_tripdata_2024-04.parquet,tpep_pickup_datetime,3514289,0,4,4,3514285,2002-12-31 22:10:04,2024-05-01 00:02:36
+yellow,Yellow Taxi,2024,5,yellow_tripdata_2024-05.parquet,tpep_pickup_datetime,3723833,0,7,7,3723826,2002-12-31 16:46:07,2024-06-01 23:54:14
+yellow,Yellow Taxi,2024,6,yellow_tripdata_2024-06.parquet,tpep_pickup_datetime,3539193,0,9,9,3539184,2008-12-31 00:00:00,2026-06-26 23:53:12

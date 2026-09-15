@@ -1,0 +1,26 @@
+{
+  "question": "Which taxi type was the most used in the first half of 2024?",
+  "period": "2024-01-01 to 2024-06-30",
+  "usage_definition": "Count of valid trip-record rows with non-null pickup timestamp within the half-year.",
+  "source_page": "https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page",
+  "downloaded_files": 24,
+  "source_file_size_bytes": 3346244005,
+  "valid_trip_records_total": 149655751,
+  "winner": {
+    "service_key": "fhvhv",
+    "service_type": "High Volume FHV (HVFHV)",
+    "valid_trip_records": 120864668,
+    "share_pct": 80.7618
+  },
+  "strict_taxicab_winner": {
+    "service_type": "Yellow Taxi",
+    "valid_trip_records": 20332054,
+    "share_pct": 98.3562
+  },
+  "quality_check": {
+    "raw_rows": 149655796,
+    "pickup_nulls": 0,
+    "out_of_window": 45,
+    "excluded_records": 45
+  }
+}

@@ -1,0 +1,82 @@
+2026-09-14T16:52:55Z | INFO | Pipeline started: 2024_01_06
+2026-09-14T16:52:55Z | INFO | Source manifest: 24 rows
+2026-09-14T16:52:55Z | INFO | Downloading yellow_tripdata_2024-01.parquet
+2026-09-14T16:52:55Z | INFO | Downloading yellow_tripdata_2024-02.parquet
+2026-09-14T16:52:56Z | INFO | Downloading yellow_tripdata_2024-03.parquet
+2026-09-14T16:52:56Z | INFO | Downloading yellow_tripdata_2024-04.parquet
+2026-09-14T16:52:57Z | INFO | Downloading yellow_tripdata_2024-05.parquet
+2026-09-14T16:52:57Z | INFO | Downloading yellow_tripdata_2024-06.parquet
+2026-09-14T16:52:58Z | INFO | Downloading green_tripdata_2024-01.parquet
+2026-09-14T16:52:58Z | INFO | Downloading green_tripdata_2024-02.parquet
+2026-09-14T16:52:58Z | INFO | Downloading green_tripdata_2024-03.parquet
+2026-09-14T16:53:00Z | INFO | Downloading green_tripdata_2024-04.parquet
+2026-09-14T16:53:02Z | INFO | Downloading green_tripdata_2024-05.parquet
+2026-09-14T16:53:03Z | INFO | Downloading green_tripdata_2024-06.parquet
+2026-09-14T16:53:05Z | INFO | Downloading fhv_tripdata_2024-01.parquet
+2026-09-14T16:53:06Z | INFO | Downloading fhv_tripdata_2024-02.parquet
+2026-09-14T16:53:06Z | INFO | Downloading fhv_tripdata_2024-03.parquet
+2026-09-14T16:53:06Z | INFO | Downloading fhv_tripdata_2024-04.parquet
+2026-09-14T16:53:06Z | INFO | Downloading fhv_tripdata_2024-05.parquet
+2026-09-14T16:53:06Z | INFO | Downloading fhv_tripdata_2024-06.parquet
+2026-09-14T16:53:06Z | INFO | Downloading fhvhv_tripdata_2024-01.parquet
+2026-09-14T16:53:10Z | INFO | Downloading fhvhv_tripdata_2024-02.parquet
+2026-09-14T16:53:13Z | INFO | Downloading fhvhv_tripdata_2024-03.parquet
+2026-09-14T16:53:17Z | INFO | Downloading fhvhv_tripdata_2024-04.parquet
+2026-09-14T16:53:21Z | INFO | Downloading fhvhv_tripdata_2024-05.parquet
+2026-09-14T16:53:24Z | INFO | Downloading fhvhv_tripdata_2024-06.parquet
+2026-09-14T16:53:28Z | INFO | Inspecting yellow_tripdata_2024-01.parquet
+2026-09-14T16:53:28Z | INFO | Inspecting yellow_tripdata_2024-02.parquet
+2026-09-14T16:53:28Z | INFO | Inspecting yellow_tripdata_2024-03.parquet
+2026-09-14T16:53:28Z | INFO | Inspecting yellow_tripdata_2024-04.parquet
+2026-09-14T16:53:28Z | INFO | Inspecting yellow_tripdata_2024-05.parquet
+2026-09-14T16:53:28Z | INFO | Inspecting yellow_tripdata_2024-06.parquet
+2026-09-14T16:53:28Z | INFO | Inspecting green_tripdata_2024-01.parquet
+2026-09-14T16:53:28Z | INFO | Inspecting green_tripdata_2024-02.parquet
+2026-09-14T16:53:28Z | INFO | Inspecting green_tripdata_2024-03.parquet
+2026-09-14T16:53:28Z | INFO | Inspecting green_tripdata_2024-04.parquet
+2026-09-14T16:53:28Z | INFO | Inspecting green_tripdata_2024-05.parquet
+2026-09-14T16:53:28Z | INFO | Inspecting green_tripdata_2024-06.parquet
+2026-09-14T16:53:28Z | INFO | Inspecting fhv_tripdata_2024-01.parquet
+2026-09-14T16:53:28Z | INFO | Inspecting fhv_tripdata_2024-02.parquet
+2026-09-14T16:53:28Z | INFO | Inspecting fhv_tripdata_2024-03.parquet
+2026-09-14T16:53:28Z | INFO | Inspecting fhv_tripdata_2024-04.parquet
+2026-09-14T16:53:28Z | INFO | Inspecting fhv_tripdata_2024-05.parquet
+2026-09-14T16:53:28Z | INFO | Inspecting fhv_tripdata_2024-06.parquet
+2026-09-14T16:53:28Z | INFO | Inspecting fhvhv_tripdata_2024-01.parquet
+2026-09-14T16:53:28Z | INFO | Inspecting fhvhv_tripdata_2024-02.parquet
+2026-09-14T16:53:28Z | INFO | Inspecting fhvhv_tripdata_2024-03.parquet
+2026-09-14T16:53:29Z | INFO | Inspecting fhvhv_tripdata_2024-04.parquet
+2026-09-14T16:53:29Z | INFO | Inspecting fhvhv_tripdata_2024-05.parquet
+2026-09-14T16:53:29Z | INFO | Inspecting fhvhv_tripdata_2024-06.parquet
+2026-09-14T16:53:29Z | INFO | Quality gates: PASS
+2026-09-14T16:53:29Z | INFO | Winner: High Volume FHV (HVFHV) (120864668 records; 80.7618%)
+2026-09-14T16:53:29Z | INFO | Pipeline completed successfully; log=runs/pipeline_2024_01_06.log
+2026-09-14T16:56:32Z | INFO | Pipeline started: 2024_01_06
+2026-09-14T16:56:32Z | INFO | Source manifest: 24 rows
+2026-09-14T16:56:42Z | INFO | Inspecting yellow_tripdata_2024-01.parquet
+2026-09-14T16:56:42Z | INFO | Inspecting yellow_tripdata_2024-02.parquet
+2026-09-14T16:56:42Z | INFO | Inspecting yellow_tripdata_2024-03.parquet
+2026-09-14T16:56:42Z | INFO | Inspecting yellow_tripdata_2024-04.parquet
+2026-09-14T16:56:42Z | INFO | Inspecting yellow_tripdata_2024-05.parquet
+2026-09-14T16:56:42Z | INFO | Inspecting yellow_tripdata_2024-06.parquet
+2026-09-14T16:56:42Z | INFO | Inspecting green_tripdata_2024-01.parquet
+2026-09-14T16:56:42Z | INFO | Inspecting green_tripdata_2024-02.parquet
+2026-09-14T16:56:42Z | INFO | Inspecting green_tripdata_2024-03.parquet
+2026-09-14T16:56:42Z | INFO | Inspecting green_tripdata_2024-04.parquet
+2026-09-14T16:56:42Z | INFO | Inspecting green_tripdata_2024-05.parquet
+2026-09-14T16:56:42Z | INFO | Inspecting green_tripdata_2024-06.parquet
+2026-09-14T16:56:42Z | INFO | Inspecting fhv_tripdata_2024-01.parquet
+2026-09-14T16:56:42Z | INFO | Inspecting fhv_tripdata_2024-02.parquet
+2026-09-14T16:56:42Z | INFO | Inspecting fhv_tripdata_2024-03.parquet
+2026-09-14T16:56:42Z | INFO | Inspecting fhv_tripdata_2024-04.parquet
+2026-09-14T16:56:42Z | INFO | Inspecting fhv_tripdata_2024-05.parquet
+2026-09-14T16:56:42Z | INFO | Inspecting fhv_tripdata_2024-06.parquet
+2026-09-14T16:56:42Z | INFO | Inspecting fhvhv_tripdata_2024-01.parquet
+2026-09-14T16:56:43Z | INFO | Inspecting fhvhv_tripdata_2024-02.parquet
+2026-09-14T16:56:43Z | INFO | Inspecting fhvhv_tripdata_2024-03.parquet
+2026-09-14T16:56:43Z | INFO | Inspecting fhvhv_tripdata_2024-04.parquet
+2026-09-14T16:56:43Z | INFO | Inspecting fhvhv_tripdata_2024-05.parquet
+2026-09-14T16:56:43Z | INFO | Inspecting fhvhv_tripdata_2024-06.parquet
+2026-09-14T16:56:43Z | INFO | Quality gates: PASS
+2026-09-14T16:56:43Z | INFO | Winner: High Volume FHV (HVFHV) (120864668 records; 80.7618%)
+2026-09-14T16:56:43Z | INFO | Pipeline completed successfully; log=/home/ubuntu/nyc-tlc-taxi-2024/runs/pipeline_2024_01_06.log

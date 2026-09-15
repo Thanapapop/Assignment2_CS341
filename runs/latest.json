@@ -1,0 +1,22 @@
+{
+  "run_id": "2024_01_06",
+  "status": "SUCCESS",
+  "started_at_utc": "2026-09-14T16:56:32.121131+00:00",
+  "finished_at_utc": "2026-09-14T16:56:43.462749+00:00",
+  "mode": "full",
+  "parameters": {
+    "year": 2024,
+    "start_month": 1,
+    "end_month": 6,
+    "download": false,
+    "force": true
+  },
+  "source_manifest_rows": 24,
+  "metrics_file": "reports/analysis_metrics.json",
+  "winner": {
+    "service_key": "fhvhv",
+    "service_type": "High Volume FHV (HVFHV)",
+    "valid_trip_records": 120864668,
+    "share_pct": 80.7618
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checks": {
+    "expected_file_count": {
+      "passed": true,
+      "observed": 24,
+      "expected": 24
+    },
+    "metadata_matches_raw_rows": {
+      "passed": true
+    },
+    "pickup_columns_present": {
+      "passed": true
+    },
+    "non_negative_counts": {
+      "passed": true
+    },
+    "valid_not_above_raw": {
+      "passed": true
+    },
+    "no_null_pickup_in_curated": {
+      "passed": true,
+      "observed": 0
+    }
+  },
+  "failed_checks": []
+}

@@ -1,0 +1,5 @@
+service_key,service_type,pickup_column
+yellow,Yellow Taxi,tpep_pickup_datetime
+green,Green Taxi,lpep_pickup_datetime
+fhv,For-Hire Vehicle (FHV),pickup_datetime
+fhvhv,High Volume FHV (HVFHV),pickup_datetime

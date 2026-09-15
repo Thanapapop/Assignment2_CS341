@@ -1,0 +1,9 @@
+2026-09-14T16:54:10Z | INFO | Pipeline started: 2024_06_06
+2026-09-14T16:54:10Z | INFO | Source manifest: 4 rows
+2026-09-14T16:54:12Z | INFO | Inspecting yellow_tripdata_2024-06.parquet
+2026-09-14T16:54:12Z | INFO | Inspecting green_tripdata_2024-06.parquet
+2026-09-14T16:54:12Z | INFO | Inspecting fhv_tripdata_2024-06.parquet
+2026-09-14T16:54:12Z | INFO | Inspecting fhvhv_tripdata_2024-06.parquet
+2026-09-14T16:54:12Z | INFO | Quality gates: PASS
+2026-09-14T16:54:12Z | INFO | Winner: High Volume FHV (HVFHV) (20123226 records; 80.1606%)
+2026-09-14T16:54:12Z | INFO | Pipeline completed successfully; log=runs/pipeline_2024_06_06.log

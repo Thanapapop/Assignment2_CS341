@@ -1,0 +1,5 @@
+service_key,service_type,raw_rows,pickup_nulls,out_of_window,excluded_records,valid_trip_records,share_of_valid_trips_pct,rank
+fhvhv,High Volume FHV (HVFHV),120864668,0,0,0,120864668,80.7618,1
+yellow,Yellow Taxi,20332093,0,39,39,20332054,13.5859,2
+fhv,For-Hire Vehicle (FHV),8119228,0,0,0,8119228,5.4253,3
+green,Green Taxi,339807,0,6,6,339801,0.2271,4
