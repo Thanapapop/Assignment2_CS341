@@ -1,0 +1,32 @@
+{
+  "project": "NYC TLC Taxi Usage — Submission 2",
+  "primary_landing_page": {
+    "kind": "html",
+    "url": "https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page",
+    "role": "official catalog and publication context"
+  },
+  "data_dictionaries": [
+    {
+      "kind": "pdf",
+      "service": "yellow",
+      "url": "https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf",
+      "role": "pickup column definition"
+    },
+    {
+      "kind": "pdf",
+      "service": "fhvhv",
+      "url": "https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_hvfhs.pdf",
+      "role": "pickup column and trip-row definition"
+    }
+  ],
+  "trip_record_sources": {
+    "kind": "parquet",
+    "base_url": "https://d37ci6vzurychx.cloudfront.net/trip-data",
+    "services": ["yellow", "green", "fhv", "fhvhv"],
+    "period": "2024-01 through 2024-06"
+  },
+  "curated_contract": {
+    "grain": "one row per service_key and calendar month",
+    "required_columns": ["service_key", "service_type", "year", "month", "raw_rows", "pickup_nulls", "out_of_window", "excluded_records", "valid_trip_records"]
+  }
+}
