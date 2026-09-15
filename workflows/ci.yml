@@ -1,0 +1,20 @@
+name: pipeline-ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install pipeline dependencies
+        run: pip install -r pipeline/requirements.txt
+      - name: Compile source
+        run: python -m py_compile pipeline/nyc_tlc_pipeline.py scripts/run_pipeline.py
+      - name: Run tests
+        run: PYTHONPATH=. pytest -q
