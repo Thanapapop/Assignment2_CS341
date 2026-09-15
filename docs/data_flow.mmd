@@ -1,0 +1,13 @@
+flowchart LR
+    A[NYC TLC landing page\nHTML catalog] --> M[Source manifest\nCSV + source registry JSON]
+    B[Yellow / HVFHV dictionaries\nPDF definitions] --> M
+    M --> D[Monthly Parquet files\n4 service types × selected months]
+    D --> S[Local source cache\ndata/raw + SHA-256]
+    S --> I[Inspect stage\nmetadata + schema + pickup column]
+    I --> Q{Quality gates}
+    Q -- fail --> F[FAILED run\nquality_report.json + log]
+    Q -- pass --> C[Curate stage\ncommon contract: service × month]
+    C --> O[data/curated\nmonthly + half-year CSV]
+    O --> R[Reports\nquality + metrics JSON]
+    R --> V[Run evidence\nruns/latest.json + log]
+    O --> A2[Analysis-ready\nranking + sensitivity check]
